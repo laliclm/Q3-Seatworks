@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Q3 | SEATWORK 2</title>
+    <!-- Bootstrap 4 CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+</head>
+ <style type="text/css">
+
+    img {
+    display: block;
+    max-width: 95px;
+    height: auto;
+    margin: 0 auto;
+}
+
+ </style>
+<body class="bg-warning">
+    <div class="container">
+        <h1 class="text-center my-5"><u>filipino story books online library !</u></h1>
+
+        <!-- Search bar with filter options -->
+        <form class="form-inline my-3">
+            <input class="form-control mr-sm-2" type="search" placeholder="search" aria-label="Search">
+            <select class="form-control mr-sm-2">
+                <option selected disabled>filter by title ?</option>
+                <option value="title1">noli me tangere</option>
+                <option value="title2">ibong adarna</option>
+                <option value="title3">florante at laura</option>
+                <option value="title2">anina ng mga alon</option>
+                <option value="title3">janis silang</option>
+            </select>
+            <select class="form-control mr-sm-2">
+                <option selected disabled>filter by author ?</option>
+                <option value="author1">jose rizal</option>
+                <option value="author2">josé de la cruz</option>
+                <option value="author3">francisco baltazar</option>
+                <option value="author2">eugene y. evasco</option>
+                <option value="author3">edgar calabia samar</option>
+            </select>
+            <select class="form-control mr-sm-2">
+                <option selected disabled>filter by publisher ?</option>
+                <option value="publisher1">berliner buchdruckerei-aktiengesellschaft</option>
+                <option value="publisher2">prime multi-quality printing corporation</option>
+                <option value="publisher3">createspace independent publishing platform</option>
+                <option value="publisher2">adarna house</option>
+                </select>
+            <button class="btn btn-info my-2 my-sm-0" type="submit">search</button>
+        </form>
+
+    <!-- books table -->
+    <div class="container">
+        <table class="table table-striped table-warning">
+            <thead>
+                <tr>
+                    <th scope="col">book cover</th>
+                    <th scope="col">title</th>
+                    <th scope="col">author</th>
+                    <th scope="col">year published</th>
+                    <th scope="col">publisher</th>
+                    <th scope="col">download and read</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>  <img class="card-img-top" src="https://www.anvilpublishing.com/anvil2012/wp-content/uploads/2016/09/Noli-Me-Tangere-Cover.jpg" alt="Book 1"></td>
+                    <td> noli me tangere</td>
+                    <td>jose rizal</td>
+                    <td>1877</td>
+                    <td>berliner buchdruckerei-aktiengesellschaft</td>
+                    <td><a href="book1.pdf" class="btn btn-info" target="_blank">download and read</a></td>
+                </tr>
+                <tr>
+                    <td> <img class="card-img-top" src="https://image.isu.pub/200504180359-d57f00386d176766078dd22b0904b650/jpg/page_1.jpg" alt="Book 2"> </td>
+                    <td>ibong adarna</td>
+                    <td>josé de la cruz</td>
+                    <td>1941</td>
+                    <td>prime multi-quality printing corporation</td>
+                    <td><a href="book2.pdf" class="btn btn-info" target="_blank">download and read</a></td>
+                </tr>
+                <tr>
+                    <td> <img class="card-img-top" src="https://ph-test-11.slatic.net/p/65ea0d34c25ce9e3ec7649861b4e1fe0.jpg" alt="Book 3"> </td>
+                    <td>florante at laura</td>
+                    <td>francisco baltazar</td>
+                    <td>1838</td>
+                    <td>createspace independent publishing platform</td>
+                    <td><a href="book3.pdf" class="btn btn-info" target="_blank">download and read</a></td>
+                </tr>
+                <tr>
+                    <td> <img class="card-img-top" src="https://media.karousell.com/media/photos/products/2022/6/30/anina_ng_mga_alon_ni_eugene_y__1656576436_e5ce0e09_progressive.jpg" alt="Book 4"> </td>
+                    <td>anina ng mga alon</td>
+                    <td>eugene y. evasco</td>
+                    <td>2002</td>
+                    <td>adarna house</td>
+                    <td><a href="book4.pdf" class="btn btn-info" target="_blank">download and read</a></td>
+                </tr>
+                <tr>
+                    <td> <img class="card-img-top" src="https://theapostatebookbore.files.wordpress.com/2016/01/janus-silang-book-2.jpg?w=640" alt="Book 5"></td>
+                    <td>janis silang</td>
+                    <td>edgar calabia samar</td>
+                    <td>2014</td>
+                    <td>adarna house</td>
+                    <td><a href="book5.pdf" class="btn btn-info" target="_blank">download and read</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
+
